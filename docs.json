@@ -1,51 +1,49 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
-  "name": "Crème'ai Documentation",
-  "colors": {
-    "primary": "#6517e9",
-    "light": "#d9d9d9",
-    "dark": "#191919"
-  },
-  "favicon": "/favicon.svg",
-  "anchors": [
-    {
-      "name": "Home",
-      "icon": "house",
-      "url": "/"
-    }
-  ],
-  "navigation": {
-    "groups": [
-      {
-        "group": "Overview",
-        "pages": [
-          "index",
-          "faq"
-        ]
-      }
-    ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:ginghong.y@gmail.com"
-      }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "linden",
+    "name": "Crème'ai Documentation",
+    "colors": {
+        "primary": "#6517e9",
+        "light": "#d9d9d9",
+        "dark": "#191919"
+    },
+    "css": "/style.css",
+    "favicon": "/favicon.svg",
+    "anchors": [
+        {
+            "name": "Home",
+            "icon": "house",
+            "url": "/"
+        }
     ],
-    "primary": {
-      "type": "button",
-      "label": "Open app",
-      "href": "https://creme-ai.cc"
+    "navigation": {
+        "groups": [
+            {
+                "group": "Overview",
+                "pages": ["index", "faq"]
+            }
+        ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hey@creme-ai.cc"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Open app",
+            "href": "https://creme-ai.cc"
+        }
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/creme_ai"
+        }
     }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/creme_ai"
-    }
-  }
 }
