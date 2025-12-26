@@ -1,12 +1,15 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "linden",
+    "theme": "almond",
     "name": "Crème'ai Documentation",
     "colors": {
-        "primary": "#6517e9",
+        "primary": "#0096B8",
         "light": "#d9d9d9",
         "dark": "#191919"
     },
+    "description": "Crème'ai Documentation",
+    "thumbnail": "",
+    "icon": "",
     "css": "/style.css",
     "favicon": "/favicon.svg",
     "anchors": [
@@ -19,8 +22,8 @@
     "navigation": {
         "groups": [
             {
-                "group": "Overview",
-                "pages": ["index", "faq"]
+                "group": "Getting Started",
+                "pages": ["introduction", "using-creme", "faq"]
             }
         ]
     },
