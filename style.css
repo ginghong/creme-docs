@@ -82,9 +82,10 @@ html {
         sans-serif !important;
 }
 
-h1 {
-    font-size: 2.5rem; /* 40px */
-    font-weight: 700;
+h1,
+#page-title {
+    font-size: 2.5rem;
+    font-weight: 900;
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -123,23 +124,23 @@ h5 {
 }
 
 h6 {
-    font-size: 1rem; /* 16px */
+    font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.5;
     margin-top: 0.75rem;
     margin-bottom: 0.5rem;
 }
 
-/* Body text */
-p {
-    font-size: 1rem; /* 16px */
+.prose > span,
+.prose > p {
+    font-size: 1.125rem;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
 /* Lists */
 li {
-    font-size: 1rem; /* 16px */
+    font-size: 1.125rem;
     line-height: 1.6;
     margin-bottom: 0.5rem;
 }
@@ -147,4 +148,12 @@ li {
 ul,
 ol {
     margin-bottom: 1rem;
+}
+
+.eyebrow {
+    font-size: 1rem;
+}
+
+.toc-item {
+    font-size: 1rem;
 }
