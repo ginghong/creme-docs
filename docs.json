@@ -11,7 +11,10 @@
     "thumbnail": "",
     "icon": "",
     "css": "/style.css",
-    "favicon": "/favicon.svg",
+    "favicon": {
+        "light": "/favicon-dark.svg",
+        "dark": "/favicon-light.svg"
+    },
     "anchors": [
         {
             "name": "Home",
@@ -22,7 +25,8 @@
     "navigation": {
         "groups": [
             {
-                "group": "Getting Started",
+                "group": "Welcome",
+                "icon": "rocket",
                 "pages": ["introduction", "using-creme", "faq"]
             }
         ]

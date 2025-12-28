@@ -1,4 +1,3 @@
-/* Outfit font face declarations */
 @font-face {
     font-family: "Outfit";
     src: url("/fonts/Outfit-Thin.ttf") format("truetype");
@@ -115,40 +114,25 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
-h5 {
-    font-size: 1.125rem; /* 18px */
-    font-weight: 600;
-    line-height: 1.5;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-h6 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    line-height: 1.5;
-    margin-top: 0.75rem;
-    margin-bottom: 0.5rem;
-}
-
-.prose > span,
-.prose > p {
-    font-size: 1.125rem;
-    line-height: 1.6;
+.sidebar-group-header {
     margin-bottom: 1rem;
-    text-wrap: pretty;
+    & > svg {
+        height: 100%;
+        aspect-ratio: 1/1;
+    }
 }
 
-/* Lists */
-li {
+#sidebar-group,
+#sidebar-title {
     font-size: 1.125rem;
-    line-height: 1.6;
-    margin-bottom: 0.5rem;
+    & > li {
+        margin-bottom: 0.5rem;
+    }
 }
 
-ul,
-ol {
-    margin-bottom: 1rem;
+#content-area {
+    max-width: 44rem;
+    margin-right: 4rem;
 }
 
 .eyebrow {
@@ -159,7 +143,11 @@ ol {
     font-size: 1rem;
 }
 
-#content-area {
-    max-width: 44rem;
-    margin-right: 4rem;
+.prose > span,
+.prose > p,
+.prose > li {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-wrap: pretty;
 }
