@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "[markdown]": {
+    "editor.comments.insertSpace": true,
+    "editor.wordWrap": "on"
+  },
+  "[mdx]": {
+    "editor.comments.insertSpace": true,
+    "editor.wordWrap": "on"
+  },
+  "editor.comment.specialComments": {
+    "mdx": "html"
+  }
+}
+
